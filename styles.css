@@ -1,3 +1,11 @@
+html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
 body {
     margin: 0;
 }
@@ -7,13 +15,14 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 99;
 }
+
 header a {
-    float: left;
     display: inline;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px;
     text-decoration: none;
     font-size: 17px;
 }
@@ -48,4 +57,5 @@ h3 {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 35px;
+    width:100%
 }
